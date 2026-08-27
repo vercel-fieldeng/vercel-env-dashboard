@@ -76,3 +76,7 @@ Passport doesn't run in front of a local dev server, so `getIdentity()` returns 
 Open [http://localhost:3000](http://localhost:3000).
 
 Built with Next.js and the Vercel Geist design system.
+
+# Disclaimer
+
+This project is not an official Vercel product and is not officially supported. It is distributed as a sample under the terms of the MIT license (see [`LICENSE`](./LICENSE)).
