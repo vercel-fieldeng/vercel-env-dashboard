@@ -1,0 +1,15 @@
+/* Geist design system: Tailwind v4 layers + design tokens, then the
+   design-system component styles and light/dark theme variables. */
+@import "@vercel/geistcn/tailwind.css";
+@import "@vercel/geistcn/styles.css";
+
+/* Tailwind v4 does not scan node_modules by default, so tell it to scan the
+   Geist component source and this app so every utility class the components
+   rely on is generated. */
+@source "../node_modules/@vercel/geistcn/src/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+html,
+body {
+  overflow-x: clip;
+}

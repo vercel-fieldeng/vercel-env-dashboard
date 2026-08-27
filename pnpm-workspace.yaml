@@ -1,0 +1,6 @@
+allowBuilds:
+  sharp: true
+minimumReleaseAgeExclude:
+  - '@vercel/*'
+  - '@next/*'
+  - 'next'
